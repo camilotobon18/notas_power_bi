@@ -1,0 +1,69 @@
+tipos de datos
+Integer
+Float
+DateTime
+Boolean (TRUE/FALSE) (0/1)
+String
+
+5 & 4 = concatenar
+"5" + "4" = suma
+
+& = concatenar
+&& = comparador AND
+|| = comparador OR
+
+SUM (tabla[columna])
+COUNT
+AVERAGE
+MIN
+MAX
+STDEV
+VAR
+
+Con string
+AVERAGEA
+COUNTA
+MINA
+MAXA
+
+COUNTBLANK = Retorna el numero de celdas vacias en una columna
+COUNTROWS = Retorna el numero de filas en una tabla
+DISTINCTCOUNT = Retorna el numero de valores distintos de una columna
+
+SUMX
+AVERAGEX
+PRODUCTX
+COUNTX
+COUNTAX
+CONCATENATEX
+MINX
+MAXX
+
+SizeDesc =
+	SWITCH ( Product[Size],
+		"S", "Small",
+		"M", "Medium",
+		"L", "Large",
+		"XL", "Extra Large",
+		"Other"
+)
+
+SWITCH (
+	TRUE (),
+	Product[Size] = "XL" && Product[Color] = "Red", "Red and XL",
+	Product[Size] = "XL" && Product[Color] = "Blue", "Blue and XL",
+	Product[Size] = "L" && Product[Color] = "Green", "Green and L"
+)
+
+//si se agrega, aparece el resultado individual para cada campo
+SUMX (tabla, tabla[columna] * tabla[columna2])
+COUNTX
+
+NOW()	//ahora
+BLANK() //vacio
+IFERROR (ventas[cantidad] * ventas[precio], BLANK())
+
+VAR totalventas = sum(ventas[subtotal])
+RETURN (totalventas - SUM (ventas[totalcostoproducto])) / totalventas
+
+pagina 59
