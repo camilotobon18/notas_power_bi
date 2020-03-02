@@ -1,0 +1,13 @@
+-CREAR RELACION
+  Power BI carga unas relaciones, pero se pueden modificar
+  se selecciona las tablas que se van a relacionar
+  luego la columna en cada uno que se desea cruzar
+  
+  CARDINALIDADES
+  varios a uno(*:1)
+  uno a uno(1:1)
+  uno a varios(1:*)
+  varios a varios(*:*)
+  
+  DIRECCION DEL FILTRO CRUZADO
+consultar "direccion del filtro cruzado"
