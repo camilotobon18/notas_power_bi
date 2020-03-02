@@ -1,0 +1,37 @@
+CARGAR DESDE LA WEB
+obtener datos
+Web
+nos traera todas las tablas que tenga dicha pagina web
+se selecciona la que queramos cargar
+
+-ESPECIFICAR DATOS
+si queremos crear una tabla directamente en Power BI, le damos en esta opcion y la creamos
+
+-CONFIGURACIÓN DE ORIGEN DE DATOS
+permite cambiar el origen de los archivos que ya cargamos
+configurar el tema de permisos
+
+-PRIMERA FILA COMO ENCABEZADO
+nos paramos en cada tabla
+INICIO
+parte derecha aparece la opcion "Usar la primera fila como encabezado"
+
+-RESUMEN DE LOS DATOS
+Al seleccionar alguna de las columnas de las tablas, mostrara un resumen de los datos, su conformación
+
+-QUITAR FILAS
+podemos elegir entre:
+  quitar filas superiores (se define el número)
+  quitar filas inferiores (se define el número)
+  quitar filas alternas (1ra fila q se desea quitar,
+                         numero de filas que se desean quitar,
+                         numero de filas que se desean conservar)
+  quitar duplicados
+  quitar filas en blanco (null)
+  quitar errores
+
+-AGREGAR COLUMNA
+  COLUMNA CONDICIONAL
+  podemos definir la condicion (IF, ELSE) 
+  si la deseamos modificar le damos en pasos aplicados, editar 
+  
