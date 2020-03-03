@@ -1,4 +1,22 @@
-tipos de datos
+las tablas dentro de las formulas 
+tableName
+'table name' //va entre comillas simples
+
+-Las columnas calculadas son útiles cuando quiera segmentar o filtrar el valor, o bien si
+quiere realizar un cálculo en cada fila de la tabla.
+
+-Use una medida calculada para calcular porcentajes o proporciones, o bien si necesita
+realizar agregaciones complejas.
+
+ Funciones de agregación = suma, promedio
+ Funciones de recuento
+ Funciones lógicas = and(&&), or, not, iferror, if
+ Funciones de información = istext, isnumber
+ Funciones de texto = replace, search, fixed, upper
+ Funciones de fecha = date, hour, eomonth, weekday
+ Funciones de tabla = filter, all, values, distinct, relatedtable //devuelven una tabla completa
+
+TIPOS DE DATOS
 Integer
 Float
 DateTime
@@ -66,4 +84,15 @@ IFERROR (ventas[cantidad] * ventas[precio], BLANK())
 VAR totalventas = sum(ventas[subtotal])
 RETURN (totalventas - SUM (ventas[totalcostoproducto])) / totalventas
 
+-la función TABLE sigue las relaciones y devuelve el valor de una columna,
+mientras que RELATEDTABLE sigue las relaciones y devuelve una tabla completa
+filtrada para incluir solo las filas relacionadas
+
+-la función TABLE sigue las relaciones y devuelve el valor de una columna,
+mientras que RELATEDTABLE sigue las relaciones y devuelve una tabla completa
+filtrada para incluir solo las filas relacionadas
+
+-CALENDAR, crea un calendario especificando dos fechas
+ Nueva tabla, se digita la formula
+ fecha_corta = tabla['FECHA APERTURA'].date[]
 pagina 59
