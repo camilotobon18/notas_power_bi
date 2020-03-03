@@ -1,4 +1,7 @@
-CARGAR DESDE LA WEB
+-RESUMEN DE LOS DATOS
+Al seleccionar alguna de las columnas de las tablas, mostrara un resumen de los datos, su conformación
+
+-CARGAR DESDE LA WEB
 obtener datos
 Web
 nos traera todas las tablas que tenga dicha pagina web
@@ -11,14 +14,36 @@ si queremos crear una tabla directamente en Power BI, le damos en esta opcion y 
 permite cambiar el origen de los archivos que ya cargamos
 configurar el tema de permisos
 
--PRIMERA FILA COMO ENCABEZADO
-nos paramos en cada tabla
-INICIO
-parte derecha aparece la opcion "Usar la primera fila como encabezado"
+-PROPIEDADES
+habilitar carga para el informe. si se desactiva esta opcion no aparece esta tabla en el informe, ni los graficos asociados
+incluir en la actualización del informe. si se desactiva al darle actualizar, esta tabla no actualizara
 
--RESUMEN DE LOS DATOS
-Al seleccionar alguna de las columnas de las tablas, mostrara un resumen de los datos, su conformación
+-EDITOR AVANZADO
+muestra el editor en el que se puede programar en lenguaje M
 
+-ADMINISTRAR
+  Eliminar, la consulta o tabla en la que estamos parados
+  Duplicar, 
+  Referencia, crea una consulta con referencia a la que estamos parados
+
+-ELEGIR COLUMNAS
+  Elegir columnas, permite seleccionar las columnas que se desean conservar
+  Ir a columna, permite seleccionar la columna en la que nos queremos parar, sobretodo para tablas muy grandes
+
+-QUITAR COLUMNAS 
+  Quitar columnas, quita las que seleccionamos
+  Quitar otras columnas, quita las que no se seleccionaron
+  
+-CONSERVAR FILAS
+podemos elegir entre:
+  conservar filas superiores (se define el número)
+  conservar filas inferiores (se define el número)
+  conservar intervalo de filas (1ra fila,
+                                número de filas)
+  conservar duplicados
+  conservar filas en blanco (null)
+  conservar errores
+  
 -QUITAR FILAS
 podemos elegir entre:
   quitar filas superiores (se define el número)
@@ -30,8 +55,23 @@ podemos elegir entre:
   quitar filas en blanco (null)
   quitar errores
 
+-ORDENAR
+de mayor a menor
+de menor a mayor
+
+-PRIMERA FILA COMO ENCABEZADO
+nos paramos en cada tabla
+INICIO
+parte derecha aparece la opcion "Usar la primera fila como encabezado"
+
 -AGREGAR COLUMNA
   COLUMNA CONDICIONAL
   podemos definir la condicion (IF, ELSE) 
-  si la deseamos modificar le damos en pasos aplicados, editar 
+  si la deseamos modificar le damos en pasos aplicados, editar
+  
+  COLUMNA PERSONALIZADA
+  se selecciona la formula predefinida y se escoge al campo que se le desea aplicar
+  Text.Proper([campo])
+  en la barra de furmulas de power query se digita para mirar las funciones y demas
+  = #shared
   
