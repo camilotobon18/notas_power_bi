@@ -1,69 +1,42 @@
-tipos de datos
-Integer
-Float
-DateTime
-Boolean (TRUE/FALSE) (0/1)
-String
+POWER BI
+empezo con el complemento power pivot, query, view (graficos interactivos|) y map en Excel 2013.
+Nace en 2015
+combina la tecnología de el software de administración de datos mas usado del mundo (SQL Server) con el software de BI más popular del planeta (Excel) y mucho más
 
-5 & 4 = concatenar
-"5" + "4" = suma
 
-& = concatenar
-&& = comparador AND
-|| = comparador OR
+BI
 
-SUM (tabla[columna])
-COUNT
-AVERAGE
-MIN
-MAX
-STDEV
-VAR
+INFORME
+coleccion de visualizaciones que se muestran en una o varias paginas y q normalmente hacen referencia a elemetos y datos relacionados entre si.
 
-Con string
-AVERAGEA
-COUNTA
-MINA
-MAXA
+PANELES
+colecciones de objetos visuales q se importan de uno o mas informes que ya existen.
+ocupan una unica pagina, normalmente representa informacion de alto nivel
 
-COUNTBLANK = Retorna el numero de celdas vacias en una columna
-COUNTROWS = Retorna el numero de filas en una tabla
-DISTINCTCOUNT = Retorna el numero de valores distintos de una columna
+ELEMENTOS
+POWER BI DESKTOP
+	gratuita, se descarga e instala. no permite creacion de paneles(unicamente en el service)
+POWER BI SERVICE
+	SaaS, ofrecido en la nube, compartición de informes, analisis automatico de los datos. tiene costo.
+POWER BI MOBILE
+	principalmente se utiliza para visualizar
 
-SUMX
-AVERAGEX
-PRODUCTX
-COUNTX
-COUNTAX
-CONCATENATEX
-MINX
-MAXX
+FLUJO DE TRABAJO
+	DESKTOP
+		Cargar conjunto de datos
+		transformarlos
+		crear un informe
+		publicar
+	SERVICES
+		Crear panel
+		compartirlo a los usuarios
+	MOBILE
+		Acceder al informe
 
-SizeDesc =
-	SWITCH ( Product[Size],
-		"S", "Small",
-		"M", "Medium",
-		"L", "Large",
-		"XL", "Extra Large",
-		"Other"
-)
+LENGUAJE DAX
+	lenguaje de modelado de datos
+	-columnas calculadas (estaticas) se mantienen estaticas a menos q se modifique la formula
+	-medidas (dinamicas) se calculan cada vez que se utilizan
 
-SWITCH (
-	TRUE (),
-	Product[Size] = "XL" && Product[Color] = "Red", "Red and XL",
-	Product[Size] = "XL" && Product[Color] = "Blue", "Blue and XL",
-	Product[Size] = "L" && Product[Color] = "Green", "Green and L"
-)
-
-//si se agrega, aparece el resultado individual para cada campo
-SUMX (tabla, tabla[columna] * tabla[columna2])
-COUNTX
-
-NOW()	//ahora
-BLANK() //vacio
-IFERROR (ventas[cantidad] * ventas[precio], BLANK())
-
-VAR totalventas = sum(ventas[subtotal])
-RETURN (totalventas - SUM (ventas[totalcostoproducto])) / totalventas
-
-pagina 59
+	MEDIDAS
+	
