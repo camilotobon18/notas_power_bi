@@ -1,0 +1,21 @@
+Text.Upper(texto) - equivale a la función MAYUSC
+Text.Lower(texto) - equivale a la función MINUSC
+Text.Proper(texto) - equivale a la función NOMPROPIO
+Text.Start(texto, Num caracteres) - equivale a la función IZQUIERDA
+Text.End(texto, Num caracteres) - equivale a la función DERECHA
+Text.Length(Texto) - equivale a la función LARGO
+Text.Middle(texto, inicio, Num caracteres) - equivale a la función EXTRAE
+Text.Contains(texto principal, texto buscado) - equivale a la función ENCONTRAR, HALLAR, pero devuelve VERDADERO/FALSO !!
+Text.Replace (texto, texto_viejo, texto_nuevo) - - equivale a la función SUSTITUIR
+
+y otras sin equivalencia:
+Text.Reverse(text) - devuelve la cadena de texto al revés...
+Text.PositionOfAny(string as text, list as list, optional occurrence as nullable number)
+las opciones de ocurrencia:
+Occurrence.First - devuelve un único valor
+Occurrence.Last - devuelve un único valor
+Occurrence.All - devuelve una matriz de coincidencias
+Text.Split(texto, separador) - devuelve particionada la cadena de texto de acuerdo al delimitador indicado
+Text.Remove(texto, caracter a eliminar) - elimina de la cadena de texto el caracter indicado
+Text.Range(texto, inicio, opcional Num caract) - similar a EXTRAE
+Devuelve la subcadena de la texto encontrado en la posición de inicio dada. Se puede incluir un parámetro opcional, 'Num caract', para especificar cuántos caracteres devolver...
