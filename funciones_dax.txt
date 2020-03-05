@@ -95,4 +95,8 @@ filtrada para incluir solo las filas relacionadas
 -CALENDAR, crea un calendario especificando dos fechas
  Nueva tabla, se digita la formula
  fecha_corta = tabla['FECHA APERTURA'].date[]
+ 
+ CREAR FUNCION
+ para crear una funcion le damos en nueva consulta, luego en blanco 
+ se crea la funcion en lenguaje M
 pagina 59
