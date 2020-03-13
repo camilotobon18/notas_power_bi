@@ -1,0 +1,80 @@
+LECCIÓN: INTRODUCCIÓN
+ CONTENIDO: 1_Introducción a Power BI
+LECCIÓN: OBTENCIÓN DE DATOS
+ CONTENIDO: 2_Información general sobre Power BI Desktop
+ CONTENIDO: 2_1_Actualización de Power BI Desktop
+ CONTENIDO: 3_Introducción a Power BI Desktop
+ CONTENIDO: 4_Conexión a orígenes de datos en Power BI Desktop
+ CONTENIDO: 4_1_Importación de Datos desde una Pagina Web
+ CONTENIDO: 5_Limpieza y transformación de los datos con el Editor de consultas
+ CONTENIDO: 5_1_Normalizar una Tabla con Dinamización de Anulación de Columnas
+ CONTENIDO: 6_Transformaciones y orígenes de datos más avanzados
+ CONTENIDO: 7_Limpieza de datos con formato irregular
+LECCIÓN: MODELADO
+ CONTENIDO: 8_Introducción al modelado de datos
+ CONTENIDO: 9_Administración de las relaciones de datos
+ CONTENIDO: 10_Creación de columnas calculadas
+ CONTENIDO: 11_Optimización de los modelos de datos
+ CONTENIDO: 12_Creación de medidas calculadas
+ CONTENIDO: 13_Creación de tablas calculadas
+ CONTENIDO: 14_Exploración de sus datos de tiempo
+LECCIÓN: VISUALIZACIONES
+ CONTENIDO: 15_Introducción a los objetos visuales en Power BI
+ CONTENIDO: 16_Creación y personalización de visualizaciones simples
+ CONTENIDO: 17_Gráficos combinados
+ CONTENIDO: 18_Segmentaciones de datos
+ CONTENIDO: 18_1_Panel de Filtros en Power BI
+ CONTENIDO: 19_Visualizaciones de mapas
+ CONTENIDO: 20_Matrices y tablas
+ CONTENIDO: 21_Gráficos de dispersión
+ CONTENIDO: 22_Gráficos de cascada y embudo
+ CONTENIDO: 23_Medidores y tarjetas con un solo número
+ CONTENIDO: 24_Modificación de colores en gráficos y objetos visuales
+ CONTENIDO: 25_Formas, cuadros de texto e imágenes
+ CONTENIDO: 26_Formato y diseño de página
+ CONTENIDO: 27_Agrupación de interacciones entre visualizaciones
+ CONTENIDO: 28_Duplicación de una página de informe
+ CONTENIDO: 29_Visualización de categorías sin datos
+ CONTENIDO: 30_Opciones de resumen y categoría
+ CONTENIDO: 31_Orden Z
+ CONTENIDO: 32_Jerarquías visuales y exploración en profundidad
+ CONTENIDO: Video Agrupador 1
+LECCIÓN: EXPLORACIÓN DE DATOS
+ CONTENIDO: 33_Introducción al servicio Power BI
+ CONTENIDO: 34_Quick Insights en Power BI
+ CONTENIDO: 35_Creación y configuración de un panel
+ CONTENIDO: 36_Formulación de preguntas a los datos en lenguaje natural
+ CONTENIDO: 37_Creación de sugerencias personalizadas de preguntas y respuestas
+ CONTENIDO: 37-1_Visualizaciones en Powwer BI Desktop en lenguaje natural
+ CONTENIDO: 38_Uso compartido de paneles con el resto de la organización
+ CONTENIDO: 39_Visualización de objetos visuales e iconos en pantalla completa
+ CONTENIDO: 40_Obtención de más espacio en el panel
+LECCIÓN: POWER BI Y EXCEL
+ CONTENIDO: 41_Introducción al uso de datos de Excel en Power BI.mp4
+ CONTENIDO: 42_Carga de datos de Excel en Power BI
+ CONTENIDO: 43_Importación de Power View y Power Pivot a Power BI
+ CONTENIDO: 44_Conexión de OneDrive para la Empresa a Power BI
+ CONTENIDO: 45_Excel en Power BI_ resumen
+LECCIÓN: PUBLICACIÓN Y USO COMPARTIDO
+ CONTENIDO: 46_Introducción a los paquetes de contenido, la seguridad y los grupos
+ CONTENIDO: 47_Publicación de informes de Power BI Desktop
+ CONTENIDO: 48_Impresión y Exportacion de Informes y Paneles
+ CONTENIDO: 49_Republicación y actualización manuales de los datos
+ CONTENIDO: 50_Presentación de Power BI Mobile
+ CONTENIDO: 51_Creacion de grupos en Power BI
+ CONTENIDO: 52_Creación de paquetes de contenido
+ CONTENIDO: 53_Uso de los paquetes de contenido
+ CONTENIDO: 54_Actualización de paquetes de contenido
+ CONTENIDO: 55_Publicación en Web
+LECCIÓN: INTRODUCCIÓN A DAX
+ CONTENIDO: 56_Introducción a DAX
+ CONTENIDO: 57_Tipos de cálculos DAX
+ CONTENIDO: 58_Funciones DAX
+ CONTENIDO: 59_Uso de variables en expresiones DAX
+ CONTENIDO: 60_Relaciones de tablas y DAX
+ CONTENIDO: 61_Filtrado y trablas DAX
+ CONTENIDO: 61_1_Filtros Avanzados con la Función Calculate
+ CONTENIDO: 61_2_Medidas de Tiempo Acumulados Comparativos
+ CONTENIDO: 62_Tabla Calendario con DAX
+ CONTENIDO: 63_Organización de las medidas DAX en una tabla
+ CONTENIDO: 64_Formato_condicional
