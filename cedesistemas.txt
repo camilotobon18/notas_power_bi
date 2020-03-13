@@ -1,1 +1,30 @@
-39
+39. visualizacion de objetos visuales e iconos en pantalla completa
+en power BI pro en los paneles
+pulsar en los 3 puntos, seleccionar modo de enfoque
+
+40. obtencion de mas espacio en el panel
+-al darle click a a la flecha diagonal, ampliara totalmente
+-se puede ocultar el menu del lado izquierdo al darle al logo de hamburguesa
+
+42. carga de datos de excel en power BI
+la informacion debe estar con formato de tabla en Excel
+en power BI pro, en la parte inferior izquierda
+Obtener datos
+Archivos
+archivo local, onedrive
+se selecciona
+Importar (carga los datos para crear visualizaciones)
+cargar (carga el archivo y lo abre en excel online)
+
+43. importacion de power view y power pivot a power BI
+obtener datos
+archivos
+archivo local
+cargamos el archivo que tenga el dashboard
+
+44. conexion de OneDrive
+obtener datos
+OneDrive Personal o empresarial
+se realiza la conexion 
+se selecciona el archivo
+
