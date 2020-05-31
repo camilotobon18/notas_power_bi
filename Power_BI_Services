@@ -1,0 +1,16 @@
+en Power BI services,
+opcion exportar, esta la opcion imprimir, pdf
+al exportar un objeto, esta la opcion XLSX max 300.000 filas y CSV max 150.000 filas
+
+al republicar el informe, Power BI reemplaza el modelo anterior
+
+-seleccionamos el informe, luego damos en la chincheta, opción anclar, creamos el panel
+luego vamos al panel
+en los tres puntos, seleccionamos la opcion movil y la personalizamos
+
+para crear un grupo o area de trabajo, vamos a area de trabajo y crear una nueva, depende de los permisos
+
+engrane, crear paquete de contenido
+se selecciona si a toda la organizacion o a unos correos en especifico, luego los graficos y conjuntos de datos que se van a ver
+
+
