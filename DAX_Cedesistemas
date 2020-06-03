@@ -1,0 +1,73 @@
+columnas calculadas
+format(table[column];"mmmm")
+RELATED(table2[campo] //trae el resultado de otra tabla, siempre y cuando esten relacionadas
+
+medidas
+sum(table[column])
+DISTINCTCOUNT(table[cliente]) //cuenta el numero diferente de clientes en este caso
+DIVIDE(dividendo;divisor;resultado opcional) //realiza una division, si se divide por 0 no se tiene en cuenta
+
+
+
+las funciones X solo pueden utilizarse con columnas numericas y normalmente solo pueden agregar una columna a la vez
+
+funciones de recuento
+COUNT
+COUNTA
+COUNTBLANK
+COUNTROWS
+DISTINCTCOUNT
+
+funciones logicas
+AND &&
+OR
+NOT
+IF
+IFERROR
+
+funciones de información
+ISBLANK
+ISNUMBER
+ISTEXT
+ISNOTEXT
+ISERROR
+
+funciones de texto
+CONCATENATE
+REPLACE
+SEARCH
+UPPER
+FIXED - fijar
+
+funciones de fecha
+DATE
+HOUR
+NOW
+EOMOUTH
+WEEKDAY
+
+funciones de tabla
+FILTER
+ALL
+VALUES
+DISTINCT
+RELATEDTABLE
+
+permite crear una nueva tabla a partir de un filtro
+filter(tabla;tabla[tipo]="Empresas")
+
+funcion calculate
+CALCULATE(medidaTotalCantidad;modelo[descripcion]="F60"||modelo[descripcion]="G620")
+en este caso se esta indicando q un filtro, q de la columna descripcion se filtrara dos modelos y de la tabla marca se filtrara "LG"
+CALCULATE(medidaTotalCantidad;FILTER(ALL(modelo[descripcion];modelo[marca]);modelo[descripcion]="F60"||modelo[descripcion]="G620"||modelo[marca]="LG")
+
+DATESYTD = devuelve un conjunto de fechas hasta la fecha actual
+la siguiente medida permite visualizar un acumulado por mes.
+CALCULATE(totalVentas;DATESYTD(tablaCalendario[Date])
+
+SAMEPERIODLASTYEAR = devuelve un conjunto de fechas en la seleccion actual del año anterior
+CALCULATE(totalVentas;SAMEPERIODLASTYEAR(tablaCalendario[Date])
+
+
+CALCULATE 
+
